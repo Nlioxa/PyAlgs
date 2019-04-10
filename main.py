@@ -15,6 +15,7 @@ accuracy = 0.1
 pp.plot(arguments, q.quantize(values, levels, accuracy))
 # plot rusulting values
 pp.plot(arguments, values)
+pp.title("Figure 1. Initial and quantized signals")
 
 pp.savefig("result.png")
 pp.show()
