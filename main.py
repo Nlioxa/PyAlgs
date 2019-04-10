@@ -16,4 +16,5 @@ pp.plot(arguments, q.quantize(values, levels, accuracy))
 # plot rusulting values
 pp.plot(arguments, values)
 
+pp.savefig("result.png")
 pp.show()
